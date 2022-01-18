@@ -18,3 +18,7 @@ Route::get('/', function () {
         'text' => 'Questo è un testo di prova'
     ]);
 });
+
+Route::get('/contacts', function() {
+    return view('contacts');
+})->name('contatti');
